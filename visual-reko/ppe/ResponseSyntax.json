@@ -1,0 +1,42 @@
+{
+   "Persons": [ 
+      { 
+         "BodyParts": [ 
+            { 
+               "Confidence": 123,
+               "EquipmentDetections": [ 
+                  { 
+                     "BoundingBox": { 
+                        "Height": 123,
+                        "Left": 123,
+                        "Top": 123,
+                        "Width": 123
+                     },
+                     "Confidence": 123,
+                     "CoversBodyPart": { 
+                        "Confidence": 123,
+                        "Value": true
+                     },
+                     "Type": "string"
+                  }
+               ],
+               "Name": "string"
+            }
+         ],
+         "BoundingBox": { 
+            "Height": 123,
+            "Left": 123,
+            "Top": 123,
+            "Width": 123
+         },
+         "Confidence": 123,
+         "Id": 123
+      }
+   ],
+   "ProtectiveEquipmentModelVersion": "string",
+   "Summary": { 
+      "PersonsIndeterminate": [ 123 ],
+      "PersonsWithoutRequiredEquipment": [ 123 ],
+      "PersonsWithRequiredEquipment": [ 123 ]
+   }
+}
