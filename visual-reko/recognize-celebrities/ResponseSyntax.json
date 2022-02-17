@@ -3,44 +3,44 @@
       { 
          "Face": { 
             "BoundingBox": { 
-               "Height": number,
-               "Left": number,
-               "Top": number,
-               "Width": number
+               "Height": 123,
+               "Left": 123,
+               "Top": 123,
+               "Width": 123
             },
-            "Confidence": number,
+            "Confidence": 123,
             "Emotions": [ 
                { 
-                  "Confidence": number,
+                  "Confidence": 123,
                   "Type": "string"
                }
             ],
             "Landmarks": [ 
                { 
                   "Type": "string",
-                  "X": number,
-                  "Y": number
+                  "X": 123,
+                  "Y": 123
                }
             ],
             "Pose": { 
-               "Pitch": number,
-               "Roll": number,
-               "Yaw": number
+               "Pitch": 123,
+               "Roll": 123,
+               "Yaw": 123
             },
             "Quality": { 
-               "Brightness": number,
-               "Sharpness": number
+               "Brightness": 123,
+               "Sharpness": 123
             },
             "Smile": { 
-               "Confidence": number,
-               "Value": boolean
+               "Confidence": 123,
+               "Value": true
             }
          },
          "Id": "string",
          "KnownGender": { 
             "Type": "string"
          },
-         "MatchConfidence": number,
+         "MatchConfidence": 123,
          "Name": "string",
          "Urls": [ "string" ]
       }
@@ -49,37 +49,37 @@
    "UnrecognizedFaces": [ 
       { 
          "BoundingBox": { 
-            "Height": number,
-            "Left": number,
-            "Top": number,
-            "Width": number
+            "Height": 123,
+            "Left": 123,
+            "Top": 123,
+            "Width": 123
          },
-         "Confidence": number,
+         "Confidence": 123,
          "Emotions": [ 
             { 
-               "Confidence": number,
+               "Confidence": 123,
                "Type": "string"
             }
          ],
          "Landmarks": [ 
             { 
                "Type": "string",
-               "X": number,
-               "Y": number
+               "X": 123,
+               "Y": 123
             }
          ],
          "Pose": { 
-            "Pitch": number,
-            "Roll": number,
-            "Yaw": number
+            "Pitch": 123,
+            "Roll": 123,
+            "Yaw": 123
          },
          "Quality": { 
-            "Brightness": number,
-            "Sharpness": number
+            "Brightness": 123,
+            "Sharpness": 123
          },
          "Smile": { 
-            "Confidence": number,
-            "Value": boolean
+            "Confidence": 123,
+            "Value": true
          }
       }
    ]
