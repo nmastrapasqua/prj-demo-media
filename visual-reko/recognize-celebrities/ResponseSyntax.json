@@ -1,0 +1,86 @@
+{
+   "CelebrityFaces": [ 
+      { 
+         "Face": { 
+            "BoundingBox": { 
+               "Height": number,
+               "Left": number,
+               "Top": number,
+               "Width": number
+            },
+            "Confidence": number,
+            "Emotions": [ 
+               { 
+                  "Confidence": number,
+                  "Type": "string"
+               }
+            ],
+            "Landmarks": [ 
+               { 
+                  "Type": "string",
+                  "X": number,
+                  "Y": number
+               }
+            ],
+            "Pose": { 
+               "Pitch": number,
+               "Roll": number,
+               "Yaw": number
+            },
+            "Quality": { 
+               "Brightness": number,
+               "Sharpness": number
+            },
+            "Smile": { 
+               "Confidence": number,
+               "Value": boolean
+            }
+         },
+         "Id": "string",
+         "KnownGender": { 
+            "Type": "string"
+         },
+         "MatchConfidence": number,
+         "Name": "string",
+         "Urls": [ "string" ]
+      }
+   ],
+   "OrientationCorrection": "string",
+   "UnrecognizedFaces": [ 
+      { 
+         "BoundingBox": { 
+            "Height": number,
+            "Left": number,
+            "Top": number,
+            "Width": number
+         },
+         "Confidence": number,
+         "Emotions": [ 
+            { 
+               "Confidence": number,
+               "Type": "string"
+            }
+         ],
+         "Landmarks": [ 
+            { 
+               "Type": "string",
+               "X": number,
+               "Y": number
+            }
+         ],
+         "Pose": { 
+            "Pitch": number,
+            "Roll": number,
+            "Yaw": number
+         },
+         "Quality": { 
+            "Brightness": number,
+            "Sharpness": number
+         },
+         "Smile": { 
+            "Confidence": number,
+            "Value": boolean
+         }
+      }
+   ]
+}
