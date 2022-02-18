@@ -1,0 +1,26 @@
+{
+   "LabelModelVersion": "string",
+   "Labels": [ 
+      { 
+         "Confidence": 123,
+         "Instances": [ 
+            { 
+               "BoundingBox": { 
+                  "Height": 123,
+                  "Left": 12,
+                  "Top": 123,
+                  "Width": 123
+               },
+               "Confidence": 123
+            }
+         ],
+         "Name": "string",
+         "Parents": [ 
+            { 
+               "Name": "string"
+            }
+         ]
+      }
+   ],
+   "OrientationCorrection": "string"
+}
