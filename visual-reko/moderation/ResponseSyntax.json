@@ -1,0 +1,10 @@
+{
+   "ModerationLabels": [ 
+      { 
+         "Confidence": 123,
+         "Name": "string",
+         "ParentName": "string"
+      }
+   ],
+   "ModerationModelVersion": "string"
+}
