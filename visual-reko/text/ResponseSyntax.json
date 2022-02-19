@@ -1,0 +1,26 @@
+{
+   "TextDetections": [ 
+      { 
+         "Confidence": 123,
+         "DetectedText": "string",
+         "Geometry": { 
+            "BoundingBox": { 
+               "Height": 123,
+               "Left": 123,
+               "Top": 123,
+               "Width": 123
+            },
+            "Polygon": [ 
+               { 
+                  "X": 123,
+                  "Y": 123
+               }
+            ]
+         },
+         "Id": 123,
+         "ParentId": 123,
+         "Type": "string"
+      }
+   ],
+   "TextModelVersion": "string"
+}
