@@ -1,0 +1,72 @@
+{
+   "FaceDetails": [ 
+      { 
+         "AgeRange": { 
+            "High": 123,
+            "Low": 123
+         },
+         "Beard": { 
+            "Confidence": 123,
+            "Value": true
+         },
+         "BoundingBox": { 
+            "Height": 123,
+            "Left": 123,
+            "Top": 123,
+            "Width": 123
+         },
+         "Confidence": 123,
+         "Emotions": [ 
+            { 
+               "Confidence": 123,
+               "Type": "string"
+            }
+         ],
+         "Eyeglasses": { 
+            "Confidence": 123,
+            "Value": true
+         },
+         "EyesOpen": { 
+            "Confidence": 123,
+            "Value": true
+         },
+         "Gender": { 
+            "Confidence": 123,
+            "Value": "string"
+         },
+         "Landmarks": [ 
+            { 
+               "Type": "string",
+               "X": 123,
+               "Y": 123
+            }
+         ],
+         "MouthOpen": { 
+            "Confidence": 123,
+            "Value": true
+         },
+         "Mustache": { 
+            "Confidence": 123,
+            "Value": true
+         },
+         "Pose": { 
+            "Pitch": 123,
+            "Roll": 123,
+            "Yaw": 123
+         },
+         "Quality": { 
+            "Brightness": 123,
+            "Sharpness": 123
+         },
+         "Smile": { 
+            "Confidence": 123,
+            "Value": true
+         },
+         "Sunglasses": { 
+            "Confidence": 123,
+            "Value": true
+         }
+      }
+   ],
+   "OrientationCorrection": "string"
+}
